@@ -25,8 +25,8 @@
                     <p jsvalues=".innerHTML:suggestionsSummaryListHeader" jstcache="19">Here are the links&nbsp;:</p>
                     <ul jsvalues=".className:suggestionsSummaryList.length == 1 ? 'single-suggestion' : ''" jstcache="20" class="">
                       <li jsselect="suggestionsSummaryList" jsvalues=".innerHTML:summary" jstcache="22" jsinstance="0">Clicking on the buttons</li>
-                      <li jsselect="suggestionsSummaryList" jsvalues=".innerHTML:summary" jstcache="22" jsinstance="1"><a href="https://github.com/thexichao" jstcache="0">Github</a></li>
-                      <li jsselect="suggestionsSummaryList" jsvalues=".innerHTML:summary" jstcache="22" jsinstance="1"><a href="https://discord.gg/by2DumBa3v" jstcache="0">Discord</a></li>
+                      <li jsselect="suggestionsSummaryList" jsvalues=".innerHTML:summary" jstcache="22" jsinstance="1"><a href="https://github.com/thexichao" target="_blank" jstcache="0">Github</a></li>
+                      <li jsselect="suggestionsSummaryList" jsvalues=".innerHTML:summary" jstcache="22" jsinstance="1"><a href="https://discord.gg/by2DumBa3v" target="_blank" jstcache="0">Discord</a></li>
                     
                     </ul>
                   </div>
@@ -42,7 +42,7 @@
       </div>
       <div id="buttons" class="nav-wrapper suggested-left" jstcache="0">
         <div id="control-buttons" jstcache="0">
-          <button id="reload-button" class="blue-button text-button" onclick="moremagic();" jsselect="reloadButton" jsvalues=".url:reloadUrl" jscontent="msg" jstcache="6">Disappearing for real</button>
+          <button id="reload-button" class="blue-button text-button" onclick="location.href='/index.html';" jsselect="reloadButton" jsvalues=".url:reloadUrl" jscontent="msg" jstcache="6">Go back to home page</button>
         </div>
         <button id="details-button" class="secondary-button text-button small-link" onclick='alert("So happy to waste our time together...");' jscontent="details" jsdisplay="(suggestionsDetails &amp;&amp; suggestionsDetails.length > 0) || diagnose" jsvalues=".detailsText:details; .hideDetailsText:hideDetails;" jstcache="3" style="">Détails</button>
       </div>
